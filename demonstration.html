@@ -140,6 +140,11 @@ img.hover-shadow {
         .td2 {border: 2px dashed darkgreen;text-align: justify; width: 50%; font-family: "Century Gothic"; color: beige; border-radius: 10px; padding: 60px}
 		.myDIV1 {width: 100%; text-align: left; border-radius: 10px; height: auto; vertical-align: top; letter-spacing: 2px; margin-left: 10px; margin-right: 10px;}
         .myDIV2 {width: 100%; text-align: left; border-radius: 10px; height: auto; vertical-align: top; letter-spacing: 2px; margin-left: 10px; margin-right: 10px;}
+	.kai3{background-color:darkseagreen; width: 10%; height: 20px; font-family: "Century Gothic"; font-size: 10; color: beige; border: 0px; border-radius: 15px;  transition-duration: 0.4s;}
+        .kai3:hover { background-color: lavenderblush; color: dimgray;}
+        .btmbtn {height: 10%; text-align: right}
+        .kai2{background-color:darkseagreen; width: 10%; height: 20px; font-family: "Century Gothic"; font-size: 10; color: beige; border: 0px; border-radius: 15px;  transition-duration: 0.4s;}
+        .kai2:hover { background-color: lavenderblush; color: dimgray;}
 
  $(document).ready(function() {
   $('.image-link').magnificPopup({type:'image'});
@@ -252,12 +257,16 @@ Demonstration
 	</td>
 	<td class="td2">
 	<div div id="myDIV2" class="myDIV2">
- <a class="image-link" href="Capstone Project Plan_SECTION 13_GROUP A.pdf"><img style= width=50% src="capstone project plan.png"></a>
+ <a class="image-link" href="Capstone Project Plan_SECTION 13_GROUP A.pdf"><img style= width=50% src="capstone project plan.png"></a></div>
 	</td>
-	</div>
 	</tr>
-	
-	</table>
+	<tr>
+    <td colspan="2" class="btmbtn">
+            <br>
+            <button type="button" class="kai2" onclick="window.location.href='problem_solution.html'" target="_self">PREVIOUS</button>
+            <button type="button" class="kai3" onclick="window.location.href='bmc.html'" target="_self">NEXT </button>
+        </td>
+    </tr>
 
 
 
