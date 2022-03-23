@@ -1,21 +1,73 @@
 <html>
 
 <style>
-    body{background-color: #5DAA68; font-family: "Dezire Stacked"; color: aliceblue;}
-    .tb {width: 100%; height: 100%}
+    body{background-color:ghostwhite; color: aliceblue;}
+    
+    .tb {width: 100%; height: 100%;}
     .animate {color: black; animation-name: animate; animation-duration: 4s; animation-iteration-count: infinite;}
-        @keyframes animate {0% {color: darkseagreen} 25% {color: lightgreen;} 50% {color: springgreen;} 100% {color: palegreen;}}
-    .app {height: 100%; width: 100%; text-align: center; font-size: 72px; letter-spacing: 10px; color: }
-    .kai3{background-color:darkseagreen; width: 10%; height: 20px; font-family: "Century Gothic"; font-size: 10; color: beige; border: 0px; border-radius: 15px;  transition-duration: 0.4s;}
-        .kai3:hover { background-color: lavenderblush; color: dimgray;}
+    @keyframes animate {0% {color: darkseagreen} 25% {color: lightgreen;} 50% {color: springgreen;} 100% {color: palegreen;}}
+    .app {height: 100%; width: 100%; text-align: center; font-size: 72px; letter-spacing: 10px; color: font-family: "Dezire Stacked";}
+    
+    .kai3{background-color:palegreen; width: 25%; height: 30px; font-family: "Century Gothic"; font-size: 24; color: darkslategrey; border: 0px; border-radius: 15px;  transition-duration: 0.4s;}
+        .kai3:hover { background-color: springgreen; color: dimgray;}
         .btmbtn {height: 10%; text-align: center; font-family: "Century Gothic"; font-size: 13px; font-style: italic;}
+    
+    
+     .tb1 {border: 0px dashed darkgreen; width: 100%; height: auto; font-size: 18px}
+        .titletb1 {height: 20%; text-align: center; width: 100%; font-size: 50px}
+        td {border: 0px dashed darkgreen; text-align: center; width: 20%; font-family: "Century Gothic"; color: darkolivegreen; border-radius: 10px;}
+        .tbtext {text-align: center; vertical-align: baseline; font-size: 24px;}
+         .kai2{background-color:palegreen; width: 25%; height: 30px; font-family: "Century Gothic"; font-size: 24; color: darkslategrey; border: 0px; border-radius: 15px;  transition-duration: 0.4s;}
+        .kai2:hover { background-color: springgreen; color: dimgray;}
 </style>
     
 <Body>
     <table class="tb">
         <tr><td> </td></tr>
     <tr> <td class="app animate"> CAPSTONE Presentation</td></tr>
-        <td class="btmbtn"> <center> <p> Other resources may take a while to load, so please wait if the page is empty. Thank you! </p> </center> <br> <button type="button" class="kai3" onclick="window.location.href='intro.html'" target="_self">GET STARTED </button></td>
+        <td class="btmbtn"> <center> <p> Other resources may take a while to load, so please wait if the page is empty. Thank you! </p> </center> <br> <button type="button" class="kai3" onclick="window.location.href='#intro2'" target="_self">GET STARTED </button></td>
     </table>
+    
+    
+    <table class="tb1" id="intro2">
+            <tr class="titletb1"> <td colspan="5"> <marquee> Introduction </marquee> </td></tr>
+            <tr>
+                
+                <td class="tbtext" id="mandv">
+                    <div id="myDIV1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h2><center> MISSION-VISION </center> </h2>
+	                
+							<h3>Mission</h3>
+                                <p>Waste-Os mission is to be committed to making everyone <br> aware of Improper Waste Management and instill discipline, <br> knowledge, and practices to people who are using <br> the app to have a cleaner environment for everyone.</p>
+                        
+                            <h3>Vision</h3>
+					            <p>Waste-Os vision is to expand to different communities and <br> to create more environmental applications so that Improper <br> Waste Management will be reduced in the Philippines.</p>
+                       
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    
+                </td>
+                <td class="tbtext" id="objec">
+                    <div id="myDIV2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h2><center> OBJECTIVES </center></h2>
+                    	             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                                        <li>To develop an application, Waste-O, that satisfies <br> a sustainable, inclusive, and innovative environmental <br> approach to the community’s area of concern</li><br>
+							<li>To instill the value of discipline and care for the <br> environment to the community through Waste-O</li><br>
+							<li>To create a system that teaches the residents how to <br> integrate Waste-O into their daily lives</li><br>
+							<li>To teach the residents how to properly enact waste <br> management through segregation, general clean-up <br> drives, and utilization of the Waste-O application</li>
+							
+			         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                     
+                     
+                </td>
+            <tr>
+    <td colspan="2" class="btmbtn">
+            <br>
+            <button type="button" class="kai2" onclick="window.location.href='default-iframe.html'" target="_self">PREVIOUS</button>
+            <button type="button" class="kai3" onclick="window.location.href='problem_solution.html'" target="_self">NEXT </button>
+        </td>
+    </tr>
+                
+        </table>
 </Body>    
 </html>
